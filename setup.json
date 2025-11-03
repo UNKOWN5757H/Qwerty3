@@ -1,25 +1,26 @@
 [
     {
         "session": "ses",
-        "token": "764xxxx91:AAFEm1xxxxxxz5txhxgmk",
-        "api_id": "26xxxx00",
-        "api_hash": "9ea494xxxxxxxxxxx4bbd",
-        "workers": 8,
-        "db_uri": "mongodb+srv://Clustexxxxxxxxxxx.net/?retryWrites=true&w=majority&appName=Cluster0",
-        "db_name": "name",
-        "fsubs": [[-1002074478106, true, 5]],
-        "db": -1002074478106,
-        "auto_del": 0,
+        "token": "7845953013:AAHzfeeR3im_jhT1yMxZ8TMzgU0ahhS80ag",
+        "api_id": "2468192",
+        "api_hash": "4906b3f8f198ec0e24edb2c197677678",
+        "workers": 4,
+        "db_uri": "mongodb+srv://Filter01:ei62heT4O81OyNyl@Filter01.6kyybcz.mongodb.net/?retryWrites=true&w=majority&appName=Filter01",
+        "db_name": "Qwerty3",
+        "fsubs": [[-1001910769204, true, 5]],
+        "db": -1001753089099,
+        "auto_del": 30,
         "messages": {
             "START": "<blockquote expandable>__Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit sed.\nVivamus luctus urna sed urna.\nCurabitur blandit tempus porttitor.\nNullam quis risus eget urna.__</blockquote>",
-            "FSUB": "",
-            "ABOUT": "ABOUT MSG",
+            "FSUB": "Join Below Channels To Get Files",
+            "ABOUT": "Bot Made By: @Sandalwood_Man",
             "REPLY": "reply_text",
-            "START_PHOTO": "",
-            "FSUB_PHOTO": ""
+            "START_PHOTO": "https://telegra.ph/file/9107275ff1d9b71db6bec.jpg",
+            "FSUB_PHOTO": "https://telegra.ph/file/9107275ff1d9b71db6bec.jpg"
         },
-        "admins": [78324663, 73468932],
+        "admins": [2098589219],
         "disable_btn": true,
-        "protect": false
+        "protect": true
     }
+
 ]
