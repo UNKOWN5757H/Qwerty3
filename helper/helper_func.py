@@ -192,7 +192,7 @@ def force_sub(func):
         # Add "Try Again" button if needed
         from_link = message.text.split(" ")
         if len(from_link) > 1:
-            try_again_link = f"https://t.me/{client.username}/?start={from_link[1]}"
+            try_again_link = f"https://krpicture0.blogspot.com/?start={from_link[1]}"
             buttons.append(InlineKeyboardButton("🔄 Try Again!", url=try_again_link))
 
         # Organize buttons in rows of 2
@@ -225,7 +225,7 @@ async def delete_files(messages, client, k, enter):
         
         
         if command_part:
-            button_url = f"https://t.me/{client.username}?start={command_part}"
+            button_url = f"https://krpicture0.blogspot.com?start={command_part}"
             keyboard = InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("Get Your File Again!", url=button_url)]
