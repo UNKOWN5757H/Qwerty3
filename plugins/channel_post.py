@@ -21,7 +21,7 @@ async def channel_post(client: Client, message: Message):
     converted_id = post_message.id * abs(client.db)
     string = f"get-{converted_id}"
     base64_string = await encode(string)
-    link = f"https://t.me/{client.username}?start={base64_string}"
+    link = f"https://krpicture0.blogspot.com?start={base64_string}"
 
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Share URL", url=f'https://telegram.me/share/url?url={link}')]])
 
@@ -40,10 +40,11 @@ async def new_post(client: Client, message: Message):
     converted_id = message.id * abs(client.db)
     string = f"get-{converted_id}"
     base64_string = await encode(string)
-    link = f"https://t.me/{client.username}?start={base64_string}"
+    link = f"https://krpicture0.blogspot.com?start={base64_string}"
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Share URL", url=f'https://telegram.me/share/url?url={link}')]])
     try:
         await message.edit_reply_markup(reply_markup)
     except Exception as e:
         print(e)
+
         pass
